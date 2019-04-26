@@ -9,6 +9,10 @@
 
 <body>
 	<h1>Hello Spring</h1>
+	<form method="post" action="/test.do">
+		암호화 : <input type="text" name="inputStr" />
+		<button type="submit">전송</button>
+	</form>
 </body>
 
 <script type="text/javascript">
